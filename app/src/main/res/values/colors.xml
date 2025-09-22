@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <!--<color name="colorAccent">#FF6200EE</color>-->
+
+        <!-- Primary Theme Colors -->
+        <color name="colorPrimaryDark">#3700B3</color>
+        <color name="colorAccent">#03DAC5</color>
+
+        <!-- Secondary Colors -->
+        <color name="colorSecondary">#FF5722</color>
+        <color name="colorSecondaryDark">#E64A19</color>
+        <color name="colorSecondaryLight">#FF8A50</color>
+
+        <!-- Neutral Colors -->
+        <color name="colorBackground">#F5F5F5</color>
+        <color name="colorSurface">#FFFFFF</color>
+        <color name="colorTextPrimary">#212121</color>
+        <color name="colorTextSecondary">#757575</color>
+        <color name="colorDivider">#BDBDBD</color>
+
+        <!-- Shades of Blue -->
+        <color name="colorBlueLight">#42A5F5</color>
+        <color name="colorBlue">#1976D2</color>
+        <color name="colorBlueDark">#0D47A1</color>
+        <color name="appBackground">#00BCD4</color>
+
+    <!-- Shades of Green -->
+        <color name="colorGreenLight">#66BB6A</color>
+        <color name="colorGreen">#388E3C</color>
+        <color name="colorGreenDark">#1B5E20</color>
+
+        <!-- Shades of Red -->
+        <color name="colorRedLight">#EF5350</color>
+        <color name="colorRed">#D32F2F</color>
+        <color name="colorRedDark">#B71C1C</color>
+
+        <!-- Shades of Orange -->
+        <color name="colorOrangeLight">#FFA726</color>
+        <color name="colorOrange">#FB8C00</color>
+        <color name="colorOrangeDark">#E65100</color>
+
+        <!-- Shades of Purple -->
+        <color name="colorPurpleLight">#BA68C8</color>
+        <color name="colorPurple">#8E24AA</color>
+        <color name="colorPurpleDark">#6A1B9A</color>
+
+        <!-- Shades of Yellow -->
+        <color name="colorYellowLight">#FFEB3B</color>
+        <color name="colorYellow">#FBC02D</color>
+        <color name="colorYellowDark">#F57F17</color>
+
+        <!-- Shades of Gray -->
+        <color name="colorGrayLight">#E0E0E0</color>
+        <color name="colorGray">#9E9E9E</color>
+        <color name="colorGrayDark">#616161</color>
+
+
+</resources>

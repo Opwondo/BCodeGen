@@ -1,0 +1,144 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:padding="16dp"
+    android:id="@+id/main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Barcode Display -->
+        <ImageView
+            android:id="@+id/barcodeImageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/barcode_generator_logo"
+            android:contentDescription="@string/generated_barcode" />
+
+        <!-- TextView for displaying the serial number -->
+        <TextView
+            android:id="@+id/serialNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:visibility="gone"
+            tools:ignore="DuplicateIds" />
+
+        <!-- Input Field for Text -->
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="edittext"
+            android:hint="@string/enter_text_to_generate_barcode"
+            android:padding="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="text"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"/>
+
+        <!-- Generate Barcode Button -->
+        <Button
+            android:id="@+id/generateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/generate_barcode"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#4285F4"
+            android:textColor="#FFFFFF" />
+
+        <!-- Horizontal Layout for Download, Scan, and Pick Image Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <!-- Download Barcode Button -->
+            <Button
+                android:id="@+id/downloadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/download_barcode"
+                android:backgroundTint="#34A853"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Scan Barcode Button -->
+            <Button
+                android:id="@+id/scanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scan_barcode"
+                android:backgroundTint="#FF9800"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="8dp"/>
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/pickImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_from_image"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+        <!-- Additional Options (Icon Buttons) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="40dp">
+
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_save"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/save_barcode" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_print"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/print_barcode" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_share"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/share_barcode" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

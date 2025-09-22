@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "265051136788",
+    "project_id": "bcodegen-60928",
+    "storage_bucket": "bcodegen-60928.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265051136788:android:159971d13cb2ab78fcd801",
+        "android_client_info": {
+          "package_name": "com.example.bcodegen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA313Bm-kFq_KDNkGNEm4iqKqBoqtL3_gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
